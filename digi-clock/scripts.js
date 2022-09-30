@@ -36,11 +36,11 @@ function Time() {
 }
 
 function update(t) {
-    if (t < 10) {
-        return "0" + t;
-    } else {
-        return t;
-    }
+  if (t < 10) {
+    return "0" + t;
+  } else {
+    return t;
+  }
 }
 
-Time ();
+Time();
